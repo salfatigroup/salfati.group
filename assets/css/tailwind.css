@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply antialiased text-slate-500 bg-slate-50;
+}
+
+html {
+  @apply [--scroll-mt:9.875rem] lg:[--scroll-mt:6.3125rem]
+}
