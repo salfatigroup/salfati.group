@@ -14,6 +14,7 @@ module.exports = {
         mono: ['Fira Code VF', ...defaultTheme.fontFamily.mono],
         source: ['Source Sans Pro', ...defaultTheme.fontFamily.sans],
         'ubuntu-mono': ['Ubuntu Mono', ...defaultTheme.fontFamily.mono],
+        'mrs-saint-delafield': ['Mrs Saint Delafield', ...defaultTheme.fontFamily.sans],
       },
     },
   },

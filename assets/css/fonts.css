@@ -42,3 +42,15 @@
     font-style: normal;
     src: url('../fonts/Ubuntu-Mono-bold.woff2') format('woff2');
 }
+
+@font-face {
+    font-family: 'Mrs Saint Delafield';
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url('../fonts/MrsSaintDelafield-Regular.ttf') format('truetype');
+}
+
+.font-mrs-saint-delafield {
+    @apply my-2 lg:my-3 mr-10;
+}
