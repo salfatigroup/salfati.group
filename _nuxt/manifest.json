@@ -1,15 +1,14 @@
 {
   "node_modules/nuxt/dist/app/entry.mjs": {
-    "file": "entry-40ea7a5c.mjs",
+    "file": "entry-61cd27a3.mjs",
     "src": "node_modules/nuxt/dist/app/entry.mjs",
     "isEntry": true,
     "dynamicImports": [
-      "pages/companies.vue",
       "pages/index.vue",
       "layouts/default.vue"
     ],
     "css": [
-      "entry.6ada6ffc.css"
+      "entry.73aad8d9.css"
     ],
     "assets": [
       "Inter-roman-latin.var.1b58736b.woff2",
@@ -21,16 +20,8 @@
       "MrsSaintDelafield-Regular.df389cd4.ttf"
     ]
   },
-  "pages/companies.vue": {
-    "file": "companies-33c6382f.mjs",
-    "src": "pages/companies.vue",
-    "isDynamicEntry": true,
-    "imports": [
-      "node_modules/nuxt/dist/app/entry.mjs"
-    ]
-  },
   "pages/index.vue": {
-    "file": "index-6b31e8d2.mjs",
+    "file": "index-5fa97108.mjs",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -38,7 +29,7 @@
     ]
   },
   "layouts/default.vue": {
-    "file": "default-c888ba26.mjs",
+    "file": "default-f0e5c850.mjs",
     "src": "layouts/default.vue",
     "isDynamicEntry": true,
     "imports": [
