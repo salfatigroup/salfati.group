@@ -17,3 +17,7 @@ html {
 .gradient-text {
   @apply text-transparent bg-clip-text bg-gradient-to-br to-purple-600 from-pink-600;
 }
+
+.router-link-active {
+  @apply text-transparent bg-clip-text bg-gradient-to-br to-purple-600 from-pink-600;
+}
