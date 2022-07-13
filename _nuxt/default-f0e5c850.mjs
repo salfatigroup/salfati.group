@@ -1,1 +1,0 @@
-import{_ as o,o as r,c as s,r as t}from"./entry-61cd27a3.mjs";const a={},c={class:"overflow-hidden"};function n(e,_){return r(),s("div",c,[t(e.$slots,"default")])}var l=o(a,[["render",n]]);export{l as default};

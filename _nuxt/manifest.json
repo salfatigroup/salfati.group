@@ -1,16 +1,19 @@
 {
   "node_modules/nuxt/dist/app/entry.mjs": {
-    "file": "entry-61cd27a3.mjs",
+    "file": "entry-df90ef3d.mjs",
     "src": "node_modules/nuxt/dist/app/entry.mjs",
     "isEntry": true,
     "dynamicImports": [
+      "pages/about.vue",
       "pages/index.vue",
       "layouts/default.vue"
     ],
     "css": [
-      "entry.73aad8d9.css"
+      "entry.53a36285.css"
     ],
     "assets": [
+      "bg.ac1e195f.png",
+      "work.5c5d175b.gif",
       "Inter-roman-latin.var.1b58736b.woff2",
       "Inter-italic-latin.var.65279caf.woff2",
       "FiraCode-VF.05b30ba3.woff2",
@@ -20,8 +23,16 @@
       "MrsSaintDelafield-Regular.df389cd4.ttf"
     ]
   },
+  "pages/about.vue": {
+    "file": "about-f5fc4854.mjs",
+    "src": "pages/about.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
   "pages/index.vue": {
-    "file": "index-5fa97108.mjs",
+    "file": "index-76a05007.mjs",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -29,7 +40,7 @@
     ]
   },
   "layouts/default.vue": {
-    "file": "default-f0e5c850.mjs",
+    "file": "default-6e0232b8.mjs",
     "src": "layouts/default.vue",
     "isDynamicEntry": true,
     "imports": [
