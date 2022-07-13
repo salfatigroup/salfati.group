@@ -3,9 +3,17 @@
 @tailwind utilities;
 
 body {
-  @apply antialiased text-slate-500 bg-slate-50;
+  @apply antialiased text-gray-700 bg-white;
 }
 
 html {
   @apply [--scroll-mt:9.875rem] lg:[--scroll-mt:6.3125rem]
+}
+
+.gradient-text-hover {
+  @apply hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-br hover:to-purple-600 hover:from-pink-600;
+}
+
+.gradient-text {
+  @apply text-transparent bg-clip-text bg-gradient-to-br to-purple-600 from-pink-600;
 }
