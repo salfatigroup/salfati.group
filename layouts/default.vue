@@ -9,3 +9,9 @@
     <sg-footer />
   </div>
 </template>
+
+<script setup lang="ts">
+useHead({
+  title: 'Salfati Group'
+})
+</script>
