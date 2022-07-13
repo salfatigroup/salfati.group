@@ -1,5 +1,5 @@
 <template>
-  <div class="space-y-52 pb-32">
+  <div class="space-y-24 md:space-y-52 pb-32">
     <!-- background -->
     <div class="rotate-bg"></div>
 
@@ -15,7 +15,7 @@
         </p>
       </div>
 
-      <div class="relative w-40 h-60 text-gray-400">
+      <div class="relative w-40 h-60 text-gray-400 hidden sm:block">
         <div class="absolute top-32 -left-16 rotate-90">
           <div class="flex items-center space-x-2">
             <div class="uppercase">scroll</div>
@@ -41,7 +41,7 @@
       <div
         v-for="story in successStories"
         :key="story.title"
-        class="flex items-center justify-between"
+        class="flex flex-col sm:flex-row items-center justify-between space-y-10 sm:space-y-0"
       >
         <div class="max-w-2xl space-y-8">
           <div class="space-y-3">
@@ -58,8 +58,8 @@
           </p>
 
           <!-- tags -->
-          <div class="flex items-center space-x-6 text-sm font-medium divide-x-2 gradient-text">
-            <div v-for="tag in story.tags" :key="tag" class="pl-6 first:p-0">
+          <div class="flex items-center space-x-3 sm:space-x-6 text-xs sm:text-sm font-medium divide-x-2 gradient-text">
+            <div v-for="tag in story.tags" :key="tag" class="pl-3 sm:pl-6 first:p-0">
               {{ tag }}
             </div>
           </div>
