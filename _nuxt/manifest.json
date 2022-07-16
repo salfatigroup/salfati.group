@@ -1,6 +1,6 @@
 {
   "node_modules/nuxt/dist/app/entry.mjs": {
-    "file": "entry-74a9a681.mjs",
+    "file": "entry-4e7293a9.mjs",
     "src": "node_modules/nuxt/dist/app/entry.mjs",
     "isEntry": true,
     "dynamicImports": [
@@ -9,10 +9,11 @@
       "layouts/default.vue"
     ],
     "css": [
-      "entry.299d32b5.css"
+      "entry.ae6a9b1f.css"
     ],
     "assets": [
       "bg.ac1e195f.png",
+      "elon-salfati.ef87faa9.jpg",
       "work.5c5d175b.gif",
       "Inter-roman-latin.var.1b58736b.woff2",
       "Inter-italic-latin.var.65279caf.woff2",
@@ -24,15 +25,22 @@
     ]
   },
   "pages/about.vue": {
-    "file": "about-fa7c9681.mjs",
+    "file": "about-4c2aa7fa.mjs",
     "src": "pages/about.vue",
     "isDynamicEntry": true,
+    "imports": [
+      "_SgIcon-46316ff9.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "_SgIcon-46316ff9.mjs": {
+    "file": "SgIcon-46316ff9.mjs",
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
   "pages/index.vue": {
-    "file": "index-fc31c0be.mjs",
+    "file": "index-6988b407.mjs",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -40,11 +48,12 @@
     ]
   },
   "layouts/default.vue": {
-    "file": "default-5e32e6b3.mjs",
+    "file": "default-c0efbcf2.mjs",
     "src": "layouts/default.vue",
     "isDynamicEntry": true,
     "imports": [
-      "node_modules/nuxt/dist/app/entry.mjs"
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_SgIcon-46316ff9.mjs"
     ]
   }
 }
