@@ -13,7 +13,7 @@
         Our values are incorporated into our work, daily life,<br />and every product and service.
       </p>
 
-      <div class="flex flex-col md:flex-row items-center justify-around space-y-10 text-2xl font-medium">
+      <div class="flex flex-col md:flex-row items-center justify-around space-y-10 sm:space-y-0 text-2xl font-medium">
         <div class="whitespace-nowrap gradient-text-hover cursor-default">
           Transparency
         </div>

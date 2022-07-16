@@ -4,6 +4,7 @@
 
 body {
   @apply antialiased text-gray-700 bg-white;
+  @apply selection:bg-pink-500 selection:text-white;
 }
 
 html {
