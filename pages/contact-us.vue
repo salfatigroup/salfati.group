@@ -10,17 +10,19 @@
       </p>
     </div>
 
-    <div class="flex justify-between space-x-14">
-      <form class="flex-col space-y-10 gradient-border" action="https://formspree.io/f/xyyorybz" method="POST">
-        <div class="flex space-x-10">
+    <div class="flex flex-col md:flex-row justify-between md:space-x-14">
+      <form class="flex-col space-y-10 md:gradient-border" action="https://formspree.io/f/xyyorybz" method="POST">
+        <div class="flex md:flex-row flex-col md:space-x-10 md:space-y-0 space-y-10">
           <!-- first and last name inputs -->
           <sg-input
+            class="w-full md:w-72"
             placeholder="First Name"
             name="first_name"
             type="text"
             required
           />
           <sg-input
+            class="w-full md:w-72"
             placeholder="Last Name"
             name="last_name"
             type="text"
@@ -28,9 +30,10 @@
           />
         </div>
 
-        <div class="flex space-x-10">
+        <div class="flex md:flex-row flex-col md:space-x-10 md:space-y-0 space-y-10">
           <!-- email and company name inputs -->
           <sg-input
+            class="w-full md:w-72"
             placeholder="Email Address"
             name="email"
             type="email"
@@ -38,6 +41,7 @@
           />
 
           <sg-input
+            class="w-full md:w-72"
             placeholder="Company Name"
             name="company"
             type="text"
@@ -53,13 +57,13 @@
         />
 
         <div class="flex items-center justify-end">
-          <button type="submit" class="text-white font-medium h-12 px-8 rounded-lg bg-gradient-to-br from-pink-600 to-purple-600 hover:from-pink-500 hover:to-purple-500">
+          <button type="submit" class="md:w-auto w-full text-white font-medium h-12 px-8 rounded-lg bg-gradient-to-br from-pink-600 to-purple-600 hover:from-pink-500 hover:to-purple-500">
             Submit
           </button>
         </div>
       </form>
 
-      <div class="space-y-6">
+      <div class="space-y-6 md:text-left text-center md:mt-0 mt-20">
         <div class="text-xl font-medium">
           "Salfati Group have helped us reach our goals in no time. We are amazed by the quality of products and services they provide."
         </div>
@@ -77,11 +81,15 @@
 </template>
 
 <style lang="postcss" scoped>
-.gradient-border {
-  --rotation: 2.1025rad;
+@tailwind utilities;
 
-  @apply p-8 shadow-sm rounded-lg border border-solid border-transparent bg-origin-border relative;
-  background-image: linear-gradient(#fff,#fff), linear-gradient(calc(var(--rotation)),#9333ea 0,#db2777 20%,rgba(121,40,202,0) 80%);
-  background-clip: padding-box,border-box;
+@responsive {
+  .gradient-border {
+    --rotation: 2.1025rad;
+
+    @apply p-8 shadow-sm rounded-lg border border-solid border-transparent bg-origin-border relative;
+    background-image: linear-gradient(#fff,#fff), linear-gradient(calc(var(--rotation)),#9333ea 0,#db2777 20%,rgba(121,40,202,0) 80%);
+    background-clip: padding-box,border-box;
+  }
 }
 </style>
