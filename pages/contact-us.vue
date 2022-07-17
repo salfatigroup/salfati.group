@@ -69,7 +69,7 @@
         </div>
 
         <div class="flex items-center justify-center space-x-4">
-          <img src="~~/assets/images/customers/chariot/salo.jpeg" alt="Salo" class="h-14 w-14 rounded-full" />
+          <img src="~~/assets/images/customers/chariot/salo.jpeg" alt="Salo" class="h-14 w-14 rounded-full" width="56" height="56" />
           <div class="text-sm">
             <div class="font-bold">Salomon Serfati</div>
             <div class="text-gray-500">Co-founder and CEO, Chariot</div>
@@ -79,6 +79,18 @@
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+useHead({
+  link: [
+    {
+      hid: 'canonical',
+      rel: 'canonical',
+      href: 'https://salfati.group/contact-us'
+    },
+  ]
+})
+</script>
 
 <style lang="postcss" scoped>
 @tailwind utilities;

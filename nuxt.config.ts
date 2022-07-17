@@ -47,14 +47,7 @@ export default defineNuxtConfig({
           property: 'og:locale',
           content: 'en_US'
         }
-      ],
-      link: [
-        {
-          hid: 'canonical',
-          rel: 'canonical',
-          href: 'https://salfati.group'
-        },
-      ],
+      ]
     },
   },
   build: {

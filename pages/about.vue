@@ -43,6 +43,16 @@
 </template>
 
 <script setup lang="ts">
+useHead({
+  link: [
+    {
+      hid: 'canonical',
+      rel: 'canonical',
+      href: 'https://salfati.group/about'
+    },
+  ]
+})
+
 const values = [
   {
     title: 'Transparency',

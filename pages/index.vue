@@ -82,6 +82,16 @@
 </template>
 
 <script setup lang="ts">
+useHead({
+  link: [
+    {
+      hid: 'canonical',
+      rel: 'canonical',
+      href: 'https://salfati.group'
+    },
+  ]
+})
+
 // success stories data
 const successStories = [
   {
