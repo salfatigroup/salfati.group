@@ -12,6 +12,9 @@
 
 <script setup lang="ts">
 useHead({
-  title: 'Salfati Group'
+  title: 'Salfati Group',
+  htmlAttrs: {
+    lang: 'en'
+  }
 })
 </script>
