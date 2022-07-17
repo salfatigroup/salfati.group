@@ -6,7 +6,7 @@
     <!-- content -->
     <main class="relative max-w-6xl mx-auto px-4 focus:outline-none sm:px-3 md:px-5">
       <div class="text-5xl mx-auto font-semibold space-y-4 max-w-4xl">
-        <h1 class="text-white drop-shadow-md">
+        <h1 class="text-white drop-shadow-sm">
           Unlock your true potential
         </h1>
 
