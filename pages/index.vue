@@ -13,6 +13,12 @@
         <p class="text-4xl">
           We provide unique and powerful tools and services to help you scale your business and protect your data.
         </p>
+
+        <div>
+          <nuxt-link to="/contact-us" class="text-lg gradient-text">
+            Let's talk ->
+          </nuxt-link>
+        </div>
       </div>
 
       <div class="relative w-40 h-60 text-gray-400 hidden sm:block">
