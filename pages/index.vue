@@ -52,7 +52,7 @@
         <div class="max-w-2xl space-y-8">
           <div class="space-y-3">
             <client-only>
-              <img :src="requireImage(story.logo)" :alt="`${story.company} logo`" class="h-5" />
+              <img :src="requireImage(story.logo)" :alt="`${story.company} logo`" class="h-5" width="96.281" height="20" loading="lazy" />
             </client-only>
             <h2 class="text-3xl font-semibold">
               {{ story.title }}
@@ -73,7 +73,7 @@
 
         <div>
           <client-only>
-            <img :src="requireImage(story.image)" :alt="story.title" class="h-96" />
+            <img :src="requireImage(story.image)" :alt="story.title" class="h-96" width="188.406" height="384" loading="lazy" />
           </client-only>
         </div>
       </div>
