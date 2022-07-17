@@ -1,6 +1,6 @@
 {
   "node_modules/nuxt/dist/app/entry.mjs": {
-    "file": "entry-431c6829.mjs",
+    "file": "entry-e7a6ef6d.mjs",
     "src": "node_modules/nuxt/dist/app/entry.mjs",
     "isEntry": true,
     "dynamicImports": [
@@ -10,7 +10,7 @@
       "layouts/default.vue"
     ],
     "css": [
-      "entry.f80055b4.css"
+      "entry.bcce9564.css"
     ],
     "assets": [
       "salo.c965ff54.jpeg",
@@ -28,37 +28,37 @@
     ]
   },
   "pages/about.vue": {
-    "file": "about-da592d1e.mjs",
+    "file": "about-2c1be128.mjs",
     "src": "pages/about.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_SgIcon-04882459.mjs",
+      "_SgIcon-e8aec2b8.mjs",
       "node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
-  "_SgIcon-04882459.mjs": {
-    "file": "SgIcon-04882459.mjs",
+  "_SgIcon-e8aec2b8.mjs": {
+    "file": "SgIcon-e8aec2b8.mjs",
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
   "pages/contact-us.vue": {
-    "file": "contact-us-0338b824.mjs",
+    "file": "contact-us-0c956580.mjs",
     "src": "pages/contact-us.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_SgInput-ab5c3f85.mjs",
+      "_SgInput-7e2efd36.mjs",
       "node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
-  "_SgInput-ab5c3f85.mjs": {
-    "file": "SgInput-ab5c3f85.mjs",
+  "_SgInput-7e2efd36.mjs": {
+    "file": "SgInput-7e2efd36.mjs",
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
   "pages/index.vue": {
-    "file": "index-e9aea6b2.mjs",
+    "file": "index-52df4bc9.mjs",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -66,13 +66,13 @@
     ]
   },
   "layouts/default.vue": {
-    "file": "default-55697518.mjs",
+    "file": "default-87137599.mjs",
     "src": "layouts/default.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs",
-      "_SgIcon-04882459.mjs",
-      "_SgInput-ab5c3f85.mjs"
+      "_SgIcon-e8aec2b8.mjs",
+      "_SgInput-7e2efd36.mjs"
     ]
   }
 }
