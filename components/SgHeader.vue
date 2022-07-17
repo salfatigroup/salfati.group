@@ -1,6 +1,7 @@
 <template>
   <div class="flex items-center justify-between">
     <nuxt-link to="/">
+      <span class="sr-only">Salfati Group</span>
       <sg-logo class="w-16" />
     </nuxt-link>
 

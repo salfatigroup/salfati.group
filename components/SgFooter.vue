@@ -21,6 +21,7 @@
             :to="social.href"
             class="text-white hover:text-gray-400"
           >
+            <span class="sr-only">{{ social.name }}</span>
             <sg-icon :icon="social.icon" class="w-6 h-6" />
           </nuxt-link>
         </div>
